@@ -1,0 +1,19 @@
+features:
+  - buildpack-stack=ubuntu-22
+ingress:
+  rules:
+    - component:
+        name: website
+      match:
+        path:
+          prefix: /
+name: blug-demo
+region: nyc
+static_sites:
+  - environment_slug: html
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: piperdaniel1/blug-demo
+    name: website
+    source_dir: /
