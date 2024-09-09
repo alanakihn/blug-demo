@@ -17,7 +17,8 @@ function App() {
             <p>
               Meet Tux, the cheerful Linux penguin who loves exploring his snowy
               winter wonderland. Join him in his favorite winter activities,
-              from building snowmen to cozying up by the campfire.
+              from building snowmen to cozying up by the campfire. Check out the
+              hobbies page below for info on all of Tux's latest hobbies!
             </p>
             <div className="mt-4 flex w-full justify-center">
               <Link to={"/hobbies"}>
