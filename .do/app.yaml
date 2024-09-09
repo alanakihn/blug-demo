@@ -13,7 +13,7 @@ static_sites:
   - environment_slug: html
     github:
       branch: main
-      deploy_on_push: true
+      deploy_on_push: false
       repo: piperdaniel1/blug-demo
     name: website
     source_dir: /
