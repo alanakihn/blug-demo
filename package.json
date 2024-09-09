@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "serve -s -p 5173 dist",
+    "start": "serve -s -p ${PORT:-5173} dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "test": "cypress run",
