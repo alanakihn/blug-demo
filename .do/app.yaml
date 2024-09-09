@@ -16,4 +16,6 @@ static_sites:
       deploy_on_push: false
       repo: piperdaniel1/blug-demo
     name: website
+    build_command: npm run build
+    run_command: npm run start
     source_dir: /
