@@ -1,6 +1,9 @@
-name: Cypress Tests
+name: Integration Testing and Deployment
 
-on: push
+on:
+  push:
+    branches:
+      - "main"
 
 jobs:
   cypress-test:
