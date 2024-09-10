@@ -3,7 +3,7 @@ name: Integration Testing and Deployment
 on:
   push:
     branches:
-      - "main"
+      - main
 
 jobs:
   cypress-test:
