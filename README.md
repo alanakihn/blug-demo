@@ -191,3 +191,38 @@ After navigating back to the `Actions` tab in our repo we can watch our new code
 ## Step Six - The whole workflow
 
 Now let's add a new hobby to the "Hobbies" section of the site and watch it get automatically tested and deployed to the production site on Digital Ocean.
+
+This will show Tux's new hobby: Curling!
+
+Open the `src/Hobbies.tsx` file. Add an additional import statement at the top of the file:
+
+```typescript
+import TuxCurling from "./assets/tux-curling.webp";
+```
+
+Then scroll down to the bottom of the file and add the actual hobby code block.
+
+```html
+<div className="mb-10 mt-10 flex w-full items-center justify-between">
+  <img src="{TuxCurling}" className="w-[450px] rounded" />
+  <div className="ml-10">
+    <h2 className="text-gold-500 text-2xl">Curling with Friends</h2>
+    <p>
+      Tux loves the excitement of curling with his penguin friends in the winter
+      wonderland. With steady focus, he pushes the curling stone across the ice,
+      while his teammates cheer him on. The snowy hills and sparkling trees
+      create the perfect backdrop for this fun and competitive winter activity,
+      making it one of Tux’s favorite games.
+    </p>
+  </div>
+</div>
+```
+
+Finally commit the changes to Github:
+
+```bash
+git commit -a -m "Added Tux's new curling hobby!"
+git push origin main
+```
+
+Now navigate to the "Actions" tab in the repo and watch the changes deploy!
