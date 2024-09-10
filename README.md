@@ -1,13 +1,13 @@
 # blug-demo
 
-Follow along with our demo by cloning this repository and following the steps below!
+Follow along with our demo by forking this repository and following the steps below!
 
 ## Step One - Cloning
 
-Clone the repository.
+Clone your forked repository.
 
 ```
-git clone git@github.com:piperdaniel1/blug-demo
+git clone git@github.com:<your github username>/blug-demo
 ```
 
 ## Step Two - Environment
