@@ -92,7 +92,7 @@ Next, we have to tell Github Actions when our workflow is supposed to run. We wi
 on:
   push:
     branches:
-      - "main"
+      - main
 ```
 
 Now, let's define what the workflow should actually do. This is done by defining a `job` for Github Actions to run. Each `job` also has a name but it also has an environment and a list of steps. Our `job` will be called `cypress-test` and will run on `Ubuntu 22.04` and check out the code and run our `cypress` tests. Add this code to the bottom of the workflow file to define our `job`:
