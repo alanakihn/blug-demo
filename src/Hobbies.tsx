@@ -70,20 +70,6 @@ function Hobbies() {
           </div>
 
           {/* Add the new hobby here */}
-          <div className="mb-10 mt-10 flex w-full items-center justify-between">
-            <img src={TuxCurling} className="w-[450px] rounded" />
-            <div className="ml-10">
-              <h2 className="text-2xl text-gold-500">Curling with Friends</h2>
-              <p>
-                Tux loves the excitement of curling with his penguin friends in
-                the winter wonderland. With steady focus, he pushes the curling
-                stone across the ice, while his teammates cheer him on. The
-                snowy hills and sparkling trees create the perfect backdrop for
-                this fun and competitive winter activity, making it one of Tux’s
-                favorite games.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </>
