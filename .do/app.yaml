@@ -14,7 +14,7 @@ static_sites:
     github:
       branch: main
       deploy_on_push: false
-      repo: alanakihn/blug-demo
+      repo: piperdaniel1/blug-demo
     name: website
     build_command: npm run build
     run_command: npm run start
