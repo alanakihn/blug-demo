@@ -1,0 +1,21 @@
+features:
+  - buildpack-stack=ubuntu-22
+ingress:
+  rules:
+    - component:
+        name: website
+      match:
+        path:
+          prefix: /
+name: blug-demo-ALANA
+region: nyc
+static_sites:
+  - environment_slug: html
+    github:
+      branch: main
+      deploy_on_push: false
+      repo: alanakihn/blug-demo
+    name: website
+    build_command: npm run build
+    run_command: npm run start
+    source_dir: /

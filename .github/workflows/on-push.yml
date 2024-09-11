@@ -1,4 +1,4 @@
-name: integration Testing
+name: Integration Testing and Deployment
 on:
   push:
     branches:
@@ -14,3 +14,13 @@ jobs:
         with:
           build: npm run build
           start: npm start
+  deploy-app:
+  needs: cypress-test
+  runs-on: ubuntu-latest
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Deploy the app
+      uses: digitalocean/app_action/deploy@v2
+      with:
+        token: ${{ secrets.DO_APP_KEY }}
