@@ -1,7 +1,6 @@
 import TuxSnowboarding from "./assets/tux-snowboarding.webp";
 import TuxCampfire from "./assets/tux-campfire.webp";
 import TuxSnowman from "./assets/tux-snowman.webp";
-import TuxCurling from "./assets/tux-curling.webp";
 
 function Hobbies() {
   return (
