@@ -1,4 +1,4 @@
-name: Integration Testing
+name: integration Testing
 on:
   push:
     branches:
