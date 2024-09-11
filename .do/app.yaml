@@ -7,7 +7,7 @@ ingress:
       match:
         path:
           prefix: /
-name: blug-demo-ALANA
+name: blug-demo-alana
 region: nyc
 static_sites:
   - environment_slug: html
